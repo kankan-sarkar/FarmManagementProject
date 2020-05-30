@@ -7,8 +7,8 @@
 `curl -sS https://getcomposer.org/installer | php`  
 `sudo mv composer.phar /usr/local/bin/composer`  
 `cd /var/www/html`  
-`sudo chgrp -R www-data /var/www/html/pragbotixWebAdminApp`  
-`sudo chmod -R 775 /var/www/html/pragbotixWebAdminApp/storage`  
+`sudo chgrp -R www-data /var/www/html/Your Project Name`  
+`sudo chmod -R 775 /var/www/html/Your Project Name/storage`  
 `cd /etc/apache2/sites-available`  
 `sudo echo "<VirtualHost *:80>`  
 `ServerName 0.0.0.0`  
