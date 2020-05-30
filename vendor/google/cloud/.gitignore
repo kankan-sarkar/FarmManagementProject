@@ -1,0 +1,11 @@
+.DS_Store
+build/
+composer.phar
+composer.lock
+docs/json/**/*
+vendor/
+.idea/
+
+# do not delete
+keys/
+.testing

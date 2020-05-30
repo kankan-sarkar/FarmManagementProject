@@ -1,0 +1,50 @@
+{
+    "name": "prologuetech/big",
+    "type": "library",
+    "description": "Google BigQuery for Laravel",
+    "keywords": [
+        "Prologue Technology",
+        "Big",
+        "Google",
+        "BigQuery",
+        "Laravel",
+        "PHP"
+    ],
+    "homepage": "https://github.com/prologuetech/laravel-big",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Percifield",
+            "email": "epercifield@prologuetechnology.com",
+            "homepage": "http://prologuetechnology.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.4",
+        "illuminate/database": "^5.4",
+        "illuminate/cache": "^5.4",
+        "php" : "~7.0",
+        "google/cloud": ">=0.49 <=0.60"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prologuetech\\Big\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "minimum-stability": "dev",
+        "prefer-stable": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prologuetech\\Big\\BigServiceProvider"
+            ],
+            "aliases": {
+                "Big": "Prologuetech\\Big\\BigServiceProvider"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Montserrat:300,400,500,600,700,800,900");
+
+// Variables
+//@import "variables";
+
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "../../../public/app-assets/fonts/feather/style.min.css";
+@import "../../../public/app-assets/fonts/simple-line-icons/style.css";
+@import "../../../public/app-assets/fonts/font-awesome/css/font-awesome.min.css";
+@import "../../../public/app-assets/vendors/css/perfect-scrollbar.min.css";
+@import "../../../public/app-assets/vendors/css/prism.min.css";
+@import "../../../public/app-assets/css/app.css";
+
+
+@import "../../../public/app-assets/vendors/css/perfect-scrollbar.min.css";
+@import "../../../public/app-assets/vendors/css/prism.min.css";
+@import "../../../public/app-assets/vendors/css/chartist.min.css";
+@import "../../../public/app-assets/vendors/css/pickadate/pickadate.css";
+@import "../../../public/app-assets/vendors/css/sweetalert2.min.css";
+@import "../../../public/app-assets/vendors/css/toastr.css";
+@import "../../../public/app-assets/vendors/css/nouislider.min.css";
+@import "../../../public/app-assets/vendors/css/dropzone.min.css";
+@import "../../../public/app-assets/vendors/css/katex.min.css";
+@import "../../../public/app-assets/vendors/css/monokai-sublime.min.css";
+@import "../../../public/app-assets/vendors/css/quill.snow.css";
+@import "../../../public/app-assets/vendors/css/quill.bubble.css";
+@import "../../../public/app-assets/vendors/css/dragula.min.css";
+@import "../../../public/app-assets/vendors/css/hopscotch.css";
+@import "../../../public/app-assets/vendors/css/tagging.css";
+@import "../../../public/app-assets/vendors/css/switchery.min.css";
+@import "~bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css";
+
+.loaded {
+  display: none;
+}
