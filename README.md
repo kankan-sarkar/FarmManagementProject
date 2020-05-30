@@ -26,7 +26,7 @@
 `sudo service apache2 restart`  
 
 ## All done , type `http://127.0.0.1` in your preferred browser and you should see the project
-## Fore live Demo Please contact my [Email](kankan_sarkar@outlook.com)
+## Fore live Demo Please contact my [Email](mailto:kankan_sarkar@outlook.com)
 
 ![](Documentation/Slide1.jpg)
 ![](Documentation/Slide2.jpg)
